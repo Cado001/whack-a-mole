@@ -67,8 +67,8 @@ function selectTile() {
         return;
     }
     if (this == currMoleTile) {
-        score += 10;
-        document.getElementById("score").innerText = score.toString(); //update score html
+        score +=10;
+        document.getElementById(" YOurscore").innerText = score.toString(); //update score html
     }
     else if (this == currPlantTile) {
         document.getElementById("score").innerText = "GAME OVER: " + score.toString(); //update score html
